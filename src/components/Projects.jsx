@@ -6,7 +6,7 @@ export default function Projects() {
 
 
 
-    <div className="relative isolate overflow-hidden py-24 sm:py-32 sm:px-0 lg:overflow-visible lg:px-2">
+    <div id="projects" className="relative isolate overflow-hidden py-24 sm:py-32 sm:px-0 lg:overflow-visible lg:px-2">
         <div className="relative isolate overflow-hidden xl:px-32 md:px-4 px-6 py-24 sm:py-32 lg:overflow-visible">
       
       <div className="pt-24 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 md:mx-auto lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
