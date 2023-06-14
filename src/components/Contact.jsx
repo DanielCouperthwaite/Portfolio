@@ -1,11 +1,12 @@
 import React from "react";
 import Details from "./Details";
+import { useState } from "react";
 
 export default function Contact() {
 
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   function encode(data) {
     return Object.keys(data)
@@ -15,14 +16,21 @@ export default function Contact() {
       .join("&");
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  function handleSubmit(event) {
+    event.preventDefault();
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
+      .then(() => {
+        setEmail('')
+        setMessage('')
+        setName('')
+      })
+      .then(() => {
+        alert("Message sent!")
+      })
       .catch((error) => alert(error));
   }
 
