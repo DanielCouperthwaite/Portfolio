@@ -52,8 +52,8 @@ export default function Contact() {
             Contact
           </h2>
           <p className="leading-relaxed mb-5 text-white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Want to work with me, or simply offer project feedback? You can drop me a comment right here,
+            or follow my contact details directly. Thanks for visiting!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-white">

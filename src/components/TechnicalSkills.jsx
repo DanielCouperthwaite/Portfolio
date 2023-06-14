@@ -153,9 +153,11 @@ export default function TechnicalSkills() {
             Technical Skills
           </p>
           <p className="mt-6 text-lg leading-8 text-white">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+            What's a developer without their tools? Click on the buttons below to see some of the 
+            tech I have experience building sites, api's and apps with. 
           </p>
+          <p className="mt-6 text-lg leading-8 text-white">This website built with Javascript,
+            React, Tailwind, and a little bit of love.</p>
           <div className="mx-auto max-w-2xl lg:text-center py-8">
         </div>
         <div>
