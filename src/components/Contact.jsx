@@ -24,12 +24,12 @@ export default function Contact() {
       body: encode({ "form-name": "contact", name, email, message }),
     })
       .then(() => {
-        setEmail('')
-        setMessage('')
-        setName('')
+        setEmail("")
+        setMessage("")
+        setName("")
       })
       .then(() => {
-        alert("Message sent!")
+        alert("Message Sent!")
       })
       .catch((error) => alert(error));
   }
@@ -56,19 +56,19 @@ export default function Contact() {
             suscipit officia aspernatur veritatis. Asperiores, aliquid?
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-black">
+            <label htmlFor="name" className="leading-7 text-sm text-white">
               Name
             </label>
             <input
               type="text"
               id="name"
               name="name"
-              className="w-full bg-white rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(event) => setName(event.target.value)}
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-black">
+            <label htmlFor="email" className="leading-7 text-sm text-white">
               Email
             </label>
             <input
@@ -82,7 +82,7 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-black">
+              className="leading-7 text-sm text-white">
               Message
             </label>
             <textarea
