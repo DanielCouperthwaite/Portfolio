@@ -38,20 +38,20 @@ export default function About () {
 
 <div id="top" className="container mx-auto flex px-20 py-20 md:flex-row flex-col items-center">
   <div >
-    <h1 className="title-font md:text-8xl text-4xl mb-12 font-large text-black py-16">
+    <h1 className="title-font md:text-8xl text-4xl mb-12 font-large text-black sm:py-16">
       Daniel Couperthwaite
       
     </h1>
-    <p className="mb-8 sm:text-xl lg:text-4xl leading-relaxed">
+    <p className="md:mb-8 mb-6 sm:text-xl lg:text-4xl leading-relaxed">
       Hi there!
     </p>
-    <p className="mb-8 sm:text-xl lg:text-2xl leading-6">
+    <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl text-md leading-6">
       Welcome to my portfolio site. Let yourself in, make yourself at home.
     </p>
-    <p className="mb-8 sm:text-xl lg:text-2xl leading-6">
+    <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl leading-6 text-md">
       Here you can see some of my skills and projects. Feel free to drop me a message with any feedback, I don't bite!
     </p>
-    <p className="mb-8 sm:text-xl lg:text-2xl leading-6">
+    <p className="mb-8 sm:text-xl lg:text-2xl leading-6 text-md">
       Thanks for coming by!
     </p>
     <div className="flex justify-left">
