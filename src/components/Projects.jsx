@@ -50,7 +50,7 @@ export default function Projects() {
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <a target="_blank" href="https://just-news8118.netlify.app/"><img
-            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem]"
+            className="w-[30rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem]"
             src={just}
             alt="A screenshot of the Just News home page"
 
@@ -137,14 +137,12 @@ export default function Projects() {
                 Built with a PostgreSQL, Express JS and Node JS, this api serves the articles used in my Just News site (see above.) You can try it yourself with the follwoing endpoints:
               </p>
               <ul className="mt-8 space-y-4">
-                
-              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">/api/articles</button></a></li>
-             
+
+              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles/api" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Endpoint Descriptions Here</button></a></li>
+
+              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Example: /api/articles</button></a></li>
               
-              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles/6/" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">/api/articles/6</button></a></li>
-              
-              
-              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles/11/comments"><button target="_blank"  className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">/api/articles/1/comments</button></a></li>
+              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles/11/comments"><button target="_blank"  className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Example: /api/articles/1/comments</button></a></li>
             
               </ul>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">

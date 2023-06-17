@@ -39,7 +39,7 @@ export default function About () {
 
 <div id="top" className="container mx-auto flex px-10 sm:px-20 py-20 md:flex-row flex-col items-center">
   <div >
-    <h1 className="title-font md:text-8xl text-4xl mb-12 font-large text-black py-10 sm:py-16">
+    <h1 className="title-font md:text-8xl text-4xl mb-12 font-large text-black py-7 sm:py-16">
       Daniel Couperthwaite
       
     </h1>
