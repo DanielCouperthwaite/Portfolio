@@ -52,7 +52,7 @@ export default function About () {
     <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl leading-6 text-md">
       Here you can see some of my skills and projects. Feel free to drop me a message with any feedback, I don't bite!
     </p>
-    <p className="mb-8 sm:text-xl lg:text-2xl leading-6 text-md">
+    <p className="mb-4 sm:text-xl lg:text-2xl leading-6 text-md">
       Thanks for coming by!
     </p>
     <div className="flex justify-left">
