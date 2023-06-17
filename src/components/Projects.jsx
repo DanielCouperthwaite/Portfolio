@@ -138,7 +138,7 @@ export default function Projects() {
               </p>
               <ul className="mt-8 space-y-4">
 
-              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles/api" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Endpoint Descriptions Here</button></a></li>
+              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Endpoint Descriptions Here</button></a></li>
 
               <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">/api/articles</button></a></li>
               
