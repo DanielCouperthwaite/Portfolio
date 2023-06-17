@@ -122,7 +122,7 @@ export default function TechnicalSkills() {
           } else if (currentField === 'back'){
             return (
               <>
-              <dl className="grid max-w-xl grid-cols-2 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
+              <dl className="grid max-w-xl grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
             {back.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-lg py-2 px-1 font-semibold leading-10 text-white">
