@@ -9,36 +9,37 @@ export default function About () {
 
 
 
-    //     <div className="bg-white py-24 sm:py-32">
-    //     <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    //       <div className="mx-auto max-w-2xl lg:text-left">
-    //         <h2 className="text-base font-semibold leading-7 text-indigo-600">Junior Full Stack Developer</h2>
-    //         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-    //           Daniel Couperthwaite
-    //         </p>
-    //         <p className="mt-6 text-lg leading-8 text-gray-600">
-    //           Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-    //           pulvinar et feugiat blandit at. In mi viverra elit nunc.
-    //         </p>
-    //       </div>
+        // <div className="bg-white py-24 sm:py-32">
+        // <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        //   <div className="mx-auto max-w-2xl lg:text-left">
+        //     <h2 className="text-base font-semibold leading-7 text-indigo-600">Junior Full Stack Developer</h2>
+        //     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        //       Daniel Couperthwaite
+        //     </p>
+        //     <p className="mt-6 text-lg leading-8 text-gray-600">
+        //       Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
+        //       pulvinar et feugiat blandit at. In mi viverra elit nunc.
+        //     </p>
+        //   </div>
 
           
-    //     </div>
+        // </div>
 
-    //        <img
-    //         src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-    //         alt="Product screenshot"
-    //         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-    //         width={2432}
-    //         height={1442}
-    //       />   
+      //   <div className="bg-white py-24 sm:py-32">
+      //      <img
+      //       src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+      //       alt="Product screenshot"
+      //       className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+      //       width={2432}
+      //       height={1442}
+      //     />   
           
-    //   </div>
+      // </div>
 
 
-<div id="top" className="container mx-auto flex px-20 py-20 md:flex-row flex-col items-center">
+<div id="top" className="container mx-auto flex px-10 sm:px-20 py-20 md:flex-row flex-col items-center">
   <div >
-    <h1 className="title-font md:text-8xl text-4xl mb-12 font-large text-black sm:py-16">
+    <h1 className="title-font md:text-8xl text-4xl mb-12 font-large text-black py-10 sm:py-16">
       Daniel Couperthwaite
       
     </h1>
@@ -70,7 +71,17 @@ export default function About () {
     </div>
   </div>
   <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-    
+  {/* <div className="bg-white py-24 sm:py-32">
+           <img
+            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            alt="Product screenshot"
+            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+            width={2432}
+            height={1442}
+          />   
+          
+      </div> */}
+
   </div>
 </div>
 
