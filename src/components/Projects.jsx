@@ -134,15 +134,15 @@ export default function Projects() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-lg leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Built with a PostgreSQL, Express JS and Node JS, this api serves the articles used in my Just News site (see above.) You can try it yourself with the follwoing endpoints:
+                Built with a PostgreSQL, Express JS and Node JS, this api serves the articles used in my Just News site (see above.) You can try it yourself with the buttons below. There is a list of all the available endpoints, or a couple of example requests already written out:
               </p>
               <ul className="mt-8 space-y-4">
 
               <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles/api" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Endpoint Descriptions Here</button></a></li>
 
-              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Example: /api/articles</button></a></li>
+              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles" ><button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">/api/articles</button></a></li>
               
-              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles/11/comments"><button target="_blank"  className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Example: /api/articles/1/comments</button></a></li>
+              <li><a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles/6/comments"><button target="_blank"  className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">/api/articles/6/comments</button></a></li>
             
               </ul>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
