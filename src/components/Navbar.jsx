@@ -2,8 +2,12 @@
 import React from "react";
 
 export default function Navbar() {
+
+  
+
   return (
-    <header className="bg-black md:sticky top-0 z-10">
+    <>
+    <header className="bg-black sticky top-0 z-10">
       <div className="container mx-auto md:flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 sm:text-xl text-md sm:pr-36 pr-5 md:pr-0">
@@ -23,11 +27,24 @@ export default function Navbar() {
         </nav>
         <a
           href="#contact"
-          className="inline-flex md:items-center bg-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base md:mt-0">
+          className="inline-flex items-center bg-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base md:mt-0">
           Contact
          
         </a>
+        {/* <select className="appearance-none md:hidden inline-flex items-center bg-white border-0 py-1 px-5 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base md:mt-0">
+          <option hidden>☰</option>
+          <option ><a href="#projects" className="mr-5 hover:text-blue-600">
+            Projects
+          </a></option>
+          <option>Technical Skills</option>
+          <option>Back to Top</option>
+          
+        </select> */}
       </div>
     </header>
+
+     </>
+
+
   );
 }
