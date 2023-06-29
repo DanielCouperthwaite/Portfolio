@@ -1,6 +1,6 @@
 import just from "../assets/JustNews.png"
 import api from "../assets/api.png"
-// import screens from "../assets/screens.png"
+
 import phones from "../assets/phones.png"
 
 export default function Projects() {

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from 'react'
+import daniel from "../assets/daniel.png"
 
 
   
@@ -37,7 +38,7 @@ export default function About () {
       // </div>
 
 
-<div id="top" className="container mx-auto flex px-10 sm:px-20 py-20 md:flex-row flex-col items-center">
+<div id="top" className="container mx-auto flex pl-10 pr-5 sm:px-20 py-20 md:flex-row flex-col items-center">
   <div >
     <h1 className="title-font md:text-8xl text-4xl mb-12 font-large text-black py-4 sm:py-16">
       Daniel Couperthwaite
@@ -49,12 +50,12 @@ export default function About () {
     <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl text-md leading-6">
       Welcome to my portfolio site. Let yourself in, make yourself at home.
     </p>
-    <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl leading-6 text-md">
+    {/* <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl leading-6 text-md">
       Here you can see some of my skills and projects. Feel free to drop me a message with any feedback, I don't bite!
     </p>
     <p className="mb-6 sm:text-xl lg:text-2xl leading-6 text-md">
       Thanks for coming by!
-    </p>
+    </p> */}
     <div className="flex justify-left">
       <a
         href={"https://www.linkedin.com/in/daniel-couperthwaite-209290139/"}
@@ -70,17 +71,17 @@ export default function About () {
       </a>
     </div>
   </div>
-  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-  {/* <div className="bg-white py-24 sm:py-32">
+  <div className="inline-flex">
+  <div className="py-24 sm:py-32 inline-block">
            <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-            alt="Product screenshot"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+            src={daniel}
+            alt="Pictures of Daniel, smiling in various locations"
+            className="md:hidden lg:block max-w-none w-[48rem] md:pl-16 lg:-ml-4 lg:-ml-0 sm:w-[57rem]"
             width={2432}
             height={1442}
-          />   
+          />    
           
-      </div> */}
+      </div>
 
   </div>
 </div>
