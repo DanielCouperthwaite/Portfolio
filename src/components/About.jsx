@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from 'react'
 import daniel from "../assets/daniel.png"
 
 
@@ -8,54 +7,19 @@ import daniel from "../assets/daniel.png"
 export default function About () {
     return (
 
-
-
-        // <div className="bg-white py-24 sm:py-32">
-        // <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        //   <div className="mx-auto max-w-2xl lg:text-left">
-        //     <h2 className="text-base font-semibold leading-7 text-indigo-600">Junior Full Stack Developer</h2>
-        //     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        //       Daniel Couperthwaite
-        //     </p>
-        //     <p className="mt-6 text-lg leading-8 text-gray-600">
-        //       Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-        //       pulvinar et feugiat blandit at. In mi viverra elit nunc.
-        //     </p>
-        //   </div>
-
-          
-        // </div>
-
-      //   <div className="bg-white py-24 sm:py-32">
-      //      <img
-      //       src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-      //       alt="Product screenshot"
-      //       className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-      //       width={2432}
-      //       height={1442}
-      //     />   
-          
-      // </div>
-
-
 <div id="top" className="container mx-auto flex pl-10 pr-5 sm:px-20 py-20 md:flex-row flex-col items-center">
   <div >
-    <h1 className="title-font md:text-8xl text-4xl mb-12 font-large text-black py-4 sm:py-16">
+    <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl py-8 md:py-16">
       Daniel Couperthwaite
       
     </h1>
-    <p className="md:mb-8 mb-6 sm:text-xl lg:text-4xl leading-relaxed">
+    <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl leading-relaxed">
       Hi there!
     </p>
     <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl text-md leading-6">
       Welcome to my portfolio site. Let yourself in, make yourself at home.
     </p>
-    {/* <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl leading-6 text-md">
-      Here you can see some of my skills and projects. Feel free to drop me a message with any feedback, I don't bite!
-    </p>
-    <p className="mb-6 sm:text-xl lg:text-2xl leading-6 text-md">
-      Thanks for coming by!
-    </p> */}
+   
     <div className="flex justify-left">
       <a
         href={"https://www.linkedin.com/in/daniel-couperthwaite-209290139/"}
@@ -80,9 +44,7 @@ export default function About () {
             width={2432}
             height={1442}
           />    
-          
       </div>
-
   </div>
 </div>
 

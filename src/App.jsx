@@ -3,7 +3,7 @@ import { useState } from 'react'
 import About from './components/About'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
-
+import Me from './components/Me'
 import TechnicalSkills from './components/TechnicalSkills'
 import Projects from './components/Projects'
 
@@ -19,6 +19,7 @@ function App() {
 
       <Navbar />
       <About />
+      <Me />
       <TechnicalSkills />
       <Projects />
       <Contact />
