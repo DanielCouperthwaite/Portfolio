@@ -14,12 +14,14 @@ function App() {
   
 
   return (
-    <main className="overflow-hidden text-black-400 bgh-14 bg-gradient-to-r from-fuchsia-100 to-fuchsia-300 body-font">
+    <main className="text-black-400 bgh-14 bg-gradient-to-r from-fuchsia-100 to-fuchsia-300 body-font">
       
 
       <Navbar />
-      <About />
-      <Me />
+      <section className='overflow-hidden'>
+        <About />
+        <Me />
+      </section>
       <TechnicalSkills />
       <Projects />
       <Contact />
