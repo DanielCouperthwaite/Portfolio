@@ -1,13 +1,21 @@
 import just from "../assets/JustNews.png"
 import api from "../assets/api.png"
 import weather from "../assets/weather.png"
-
+import naan from "../assets/naan.png"
 import phones from "../assets/phones.png"
+import { useState } from "react"
+
 
 export default function Projects() {
 
   const inSrc = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABDUlEQVR4AWP4////gOLB44D6nTcsGIo33QHi/zTGd0B2YTiAPpYjHIHNAf/piQk6wGPW8f/rLz8HYRCbXg5AWI4GQGJ0cwDY12gAJDbcHUA4CkZAIqQUK7Ts/m/SfxBMs5RupswBaACr+P47b/5zlG/5DyzZ/r/+8hNF7vuvP//nn3r0X6JhJ+0ccPrR+/+H7735jw9cf/n5v0D1Nuo5gBxQve06zR0AjoL7b7/+//zjN4bc+ScfaOeA33///k9Yfg4mDw7u/Xdeo6uhnQP6D93FMNxlxjF0ZbRzgMXEQ9iyI90cALIMJoccDXRzAK6CZog6YNQBow6gIx54Bwx4x2RAu2bAysoEZu9o7xgAQrvkxt3WZi0AAAAASUVORK5CYII="
   
+  const [naanClicked, setNaanClicked]= useState(false)
+
+  function handleNaan (event) {
+    event.preventDefault()
+    setNaanClicked(true)
+  }
 
   return (
     <section>
@@ -295,7 +303,7 @@ export default function Projects() {
           <img
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem]"
             src={weather}
-            alt="The rendered hosted page for a back end api, featuring an object list of articles"
+            alt="Home Page for WeatherOrNot, featuring a fluffy cloud next to the search bar."
           />
           </a>
         </div>
@@ -317,12 +325,7 @@ export default function Projects() {
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   
-                <span>
-                  {/* <strong className="font-semibold text-gray-900">Safe and secure.</strong> Built to protect against malicious
-                    sql injections, you can trust that your comment contents are safe. Trust me, my brother
-                    is a principal engineer at ARM and he's already tried his best to break it. */}
-                    
-                  </span>
+               
                 </li>
                 <li className="flex gap-x-3">
                   
@@ -341,12 +344,74 @@ export default function Projects() {
                 <li className="flex gap-x-3">
                  
                   <span>
-                  <strong className="font-semibold text-gray-900">Explore. Dream. Discover. </strong>How is it in San Jose, Costa Rica, right now? Buenos Aires? Cairo? There's nothing wrong 
+                  <strong className="font-semibold text-gray-900">Explore. Dream. Discover. </strong>How is it inSan Jose, Costa Rica, right now? Buenos Aires? Cairo? There's nothing wrong 
                   with a little daydreaming over that next trip...
                     
                   </span>
                 </li>
                 
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="pt-24 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-4">
+            <div className="lg:max-w-lg">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Bonus: Homemade Naan Breads</h1>
+              <p className="my-6 text-xl leading-8 text-gray-700">
+                Nothing at all to do with development I'm afraid, but who doesn't like a little baking between debugging!
+              </p>
+              
+            </div>
+            <a target="_blank" href="https://www.bbcgoodfood.com/recipes/naan-bread" >
+            <button  className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Find the r̶e̶p̶o̶s̶i̶t̶o̶r̶y recipe here!</button>
+            </a>
+          </div>
+          
+        </div>
+        <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+          <a target="_blank" href="https://www.bbcgoodfood.com/recipes/naan-bread">
+          <img
+            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem]"
+            src={naan}
+            alt="A lovely picture of some of the naan breads I made earlier this year!"
+          />
+          </a>
+        </div>
+        
+              
+             
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-4">
+            <div className="max-w-xl text-lg leading-7 text-gray-700 lg:max-w-lg">
+              <p>
+                Here are a few I made earlier with strong white flour, all natural yoghurt and just a little golden caster sugar. Carefully kneaded, rolled and dry fried for a soft, elastic consistency. 
+              </p>
+              
+              
+              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                 <li className="flex gap-x-3">
+                  
+                  <span>
+                    <strong className="font-semibold text-gray-900">Fresh and Delicious.</strong> Piping hot and straight from the oven! Right on time and 
+                    easy to digest, just like all of my code! 
+                  </span>
+                </li>
+              <ul className="mt-8 space-y-4">
+                <a onClick={handleNaan} className="py-8">
+                <section>{naanClicked === true ? null : <button className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg" disabled={naanClicked === true}>Try them for yourself!</button>}</section>
+                </a>
+              </ul>
+                <li className="flex gap-x-3">
+                  <strong>{naanClicked === true ? 'Thanks for taking such an interest! You can contact me below and I can make a fresh batch as soon as possible!' : null}</strong>
+                </li>
+               
+        
               </ul>
               
             </div>
