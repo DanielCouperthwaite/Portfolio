@@ -19,7 +19,7 @@ export default function Me () {
                     </p>
                     <p className="mt-6 text-lg leading-8"> 
                         In my free time you can find me either on top of a mountain in the Lake or Peak district. I have been playing guitar since I was a teenager and also love trying out new recipes. (I am so proud of 
-                        my garlic naans I very nearly listed them as a project below!)
+                        my homemade naan breads I even listed them as a bonus project below!)
                     </p>
                     <p className="mt-6 text-lg leading-8"> 
                         Feel free to get in touch if you have any questions about myself, my projects or you have recipes to recommend!
