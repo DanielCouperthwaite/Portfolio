@@ -74,8 +74,8 @@ export default function Projects() {
                 Upon receiving their message, users must answer a quiz question or play a game to 'hatch their egg' and receive their prize.
               </p>
               <div className="pt-6">
-              <a  target="_blank" className="py-8">
-                <button className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Video Demo (Coming Soon!)</button>
+              <a href="https://northcoders.com/projects/june-2023/love-birds" target="_blank" className="py-8">
+                <button className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Video Demo Here</button>
                 </a>
               </div>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
