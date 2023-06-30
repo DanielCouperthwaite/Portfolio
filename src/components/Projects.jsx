@@ -1,5 +1,6 @@
 import just from "../assets/JustNews.png"
 import api from "../assets/api.png"
+import weather from "../assets/weather.png"
 
 import phones from "../assets/phones.png"
 
@@ -263,6 +264,92 @@ export default function Projects() {
                 <button className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">/api/articles/2112</button>
                 </a>
                 </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="pt-24 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-4">
+            <div className="lg:max-w-lg">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">WeatherOrNot</h1>
+              <p className="my-6 text-xl leading-8 text-gray-700">
+                Planning on Kayaking through Borneo? Horse-riding through Outer Mongolio? Fishing in the Amazon?
+              </p>
+              <p className="my-6 text-xl leading-8 text-gray-700">
+                Or maybe just taking the dog out and wondering WeatherOrNot that umbrella is really necessary.
+              </p>
+              <p className="my-6 text-xl leading-8 text-gray-700">
+                Find the weather, anywhere in the world, instantly!
+              </p>
+            </div>
+            <a target="_blank" href="https://github.com/DanielCouperthwaite/WeatherOrNot" >
+            <button  className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Find the repository on<img className="pl-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEX////4+Pi3ubtvcnZNUVU+Q0cpLjLr6+x3en0sMTYkKS59gIORk5aUl5n8/Pzw8PFTV1tbX2Pc3d5DSEzn5+g3PECLjpFKTlKFh4qxs7XCxMUwNTq/wcLh4uPV1tZzd3o/Q0jOz9CmqKpjZ2qfoaSrd37mAAABPUlEQVR4AW3TBZKEMBAF0B8GCHzcnbW5/xm30qEyknklcU/DgQpuYRTHUXgLFHw6SemkmcYrlcd8kRYlnlQ1PU0Fp434Qde75Qd+1FUQKiRZjyGfTGNjKhWMmSQXYO3Ibao3MlqBnSRzADhk/ycAdcqclSSHnEUD+KLt8KalMQMqpl3izU5jKxHQGCq8Ud80fq4VfuFZaIyQO4wVPEre5g+RrIAPJrkQSL8OPjv3htQmH8guU5uwgseeP7ITMYBnpdFgvlJPcx0zoLjjzS/FDrVRvH6xsqDYlLx29huRUaFx6YuI1mhKMbddf9trEzca7rmRk/FxpiRXiJO8FDBURyb4yfO7glC8TOpacmAc4ElMEWlc2oGckjwvYVFEB5wjouE6uLBwquypQym/scKrM4njElYaJy182q15aDj/oQMZkS8JH3IAAAAASUVORK5CYII="></img></button>
+            </a>
+          </div>
+          
+        </div>
+        <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+          <a target="_blank" href="https://weatherornot4114.netlify.app/">
+          <img
+            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem]"
+            src={weather}
+            alt="The rendered hosted page for a back end api, featuring an object list of articles"
+          />
+          </a>
+        </div>
+        
+              
+             
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-4">
+            <div className="max-w-xl text-lg leading-7 text-gray-700 lg:max-w-lg">
+              <p>
+                Fetching from a third party Api, WeatherOrNot handles your search queries, fetches data, extracts the most relevant parts and converts it into a useable format. All before that first raindrop even falls!
+              </p>
+              <ul className="mt-8 space-y-4">
+                <a href="https://weatherornot4114.netlify.app/" target="_blank" className="py-8">
+                <button className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Try it for yourself!</button>
+                </a>
+              </ul>
+              
+              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                <li className="flex gap-x-3">
+                  
+                <span>
+                  {/* <strong className="font-semibold text-gray-900">Safe and secure.</strong> Built to protect against malicious
+                    sql injections, you can trust that your comment contents are safe. Trust me, my brother
+                    is a principal engineer at ARM and he's already tried his best to break it. */}
+                    
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  
+                  <span>
+                    <strong className="font-semibold text-gray-900">Environment Variables.</strong> Keep your those precious API keys safe with environment variables stored
+                    locally or on your host site, but <strong>never</strong> pushed to a public repository.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                 
+                  <span>
+                  <strong className="font-semibold text-gray-900">Never be caught out again. </strong>Updated constantly to ensure all information is relevant, helpful and correct.
+                    
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                 
+                  <span>
+                  <strong className="font-semibold text-gray-900">Explore. Dream. Discover. </strong>How is it in San Jose, Costa Rica, right now? Buenos Aires? Cairo? There's nothing wrong 
+                  with a little daydreaming over that next trip...
+                    
+                  </span>
+                </li>
+                
+              </ul>
+              
+            </div>
           </div>
         </div>
       </div>
