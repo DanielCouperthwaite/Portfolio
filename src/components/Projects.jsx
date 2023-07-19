@@ -92,7 +92,7 @@ export default function Projects() {
                 <li className="flex gap-x-3">
                   
                   <span>
-                    <strong className="font-semibold text-gray-900">Built for complexity. </strong> Typsescript enabled a greater confidence in the complexity
+                    <strong className="font-semibold text-gray-900">Built for complexity. </strong> Typsescript enables a greater confidence in the complexity
                     and amount of components used, allowing us to pinpoint exactly where errors were hiding!
                   </span>
                 </li>
