@@ -157,7 +157,7 @@ export default function TechnicalSkills() {
             tech I have experience building sites, api's and apps with. 
           </p>
           <p className="mt-6 text-lg leading-8 text-white">This website built with Javascript,
-            React, Tailwind, and a little bit of love.</p>
+            React, Tailwind CSS, and a little bit of love.</p>
           <div className="mx-auto max-w-2xl lg:text-center py-8">
         </div>
         <div>
