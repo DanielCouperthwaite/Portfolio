@@ -2,7 +2,7 @@
 
 Welcome!
 
-Here you can find a repository for my luve hosted portfolio. You can find the site itself here: https://danielcouperthwaite.tech/
+Here you can find a repository for my live hosted portfolio. You can find the site itself here: https://danielcouperthwaite.tech/
 
 # Getting Started
 
