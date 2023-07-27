@@ -3,7 +3,6 @@ import html from "../assets/html.png"
 import css3 from "../assets/css3.png"
 import Express from "../assets/Express.png"
 import post from "../assets/Post.png"
-import cs from "../assets/cs.png"
 
 const languages = [
   {
