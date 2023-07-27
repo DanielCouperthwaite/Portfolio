@@ -3,6 +3,7 @@ import html from "../assets/html.png"
 import css3 from "../assets/css3.png"
 import Express from "../assets/Express.png"
 import post from "../assets/Post.png"
+import cs from "../assets/cs.png"
 
 const languages = [
   {
@@ -17,6 +18,12 @@ const languages = [
       '',
     imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
   },
+  {
+    name: 'C#',
+    description:
+      '',
+    imgSrc: "https://static.cdnlogo.com/logos/c/27/c.svg",
+  }
 ]
 
 const front = [
@@ -90,7 +97,7 @@ export default function TechnicalSkills() {
             {languages.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-lg py-2 px-1 font-semibold leading-10 text-white">
-                  <img src={feature.imgSrc} className="absolute left-0 top-0 flex h-14 w-14 items-center justify-center rounded-lg bg-indigo-600" />
+                  <img src={feature.imgSrc} className="absolute left-0 top-0 flex h-14 w-14 items-center justify-center rounded-lg bg-white" />
                     
                   
                   {feature.name}
