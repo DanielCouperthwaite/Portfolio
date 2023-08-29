@@ -14,7 +14,7 @@ function App() {
   
 
   return (
-    <main className="text-black-400 bgh-14 bg-gradient-to-r from-fuchsia-100 to-fuchsia-300 body-font">
+    <main className="text-black-400 text-justify bgh-14 bg-gradient-to-r from-fuchsia-100 to-fuchsia-300 body-font">
       
 
       <Navbar />
