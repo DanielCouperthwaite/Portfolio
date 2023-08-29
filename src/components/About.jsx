@@ -9,10 +9,10 @@ export default function About () {
 
 <div id="top" className="container mx-auto flex pl-10 pr-5 sm:px-20 py-20 md:flex-row flex-col items-center">
   <div >
-    <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl py-8 md:py-16">
+    {/* <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl py-8 md:py-16">
       Daniel Couperthwaite
       
-    </h1>
+    </h1> */}
     <p className="md:mb-8 mb-6 sm:text-xl lg:text-2xl leading-relaxed">
       Hi there!
     </p>
