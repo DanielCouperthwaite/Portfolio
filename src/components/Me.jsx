@@ -14,7 +14,7 @@ export default function Me () {
                         The youngest students I taught were just 3 years old, and the oldest was 79! ( He was frustrated his grandchildren could communicate in English without him knowing! )
                     </p>
                     <p className="mt-6 text-lg leading-8">
-                        I am growing my development skills every day and would love the chance to do this in a team as a junior developer. You can see some of the projects I have made below, or follow updates from my <a href={"https://www.linkedin.com/in/daniel-couperthwaite-209290139/"} target="_blank">linkedIn</a> account.
+                        I am growing my development skills every day and would love the chance to do this in a team as a junior developer. You can see some of the projects I have made below, or follow updates from my <a href={"https://www.linkedin.com/in/daniel-couperthwaite-209290139/"} target="_blank" className="font-bold">linkedIn</a> account.
                     </p>
                     <p className="mt-6 text-lg leading-8">
                         In my free time you can find me either on top of a mountain in the Lake or Peak district. I have been playing guitar since I was a teenager and also love trying out new recipes. (I am so proud of my homemade naan breads I even listed them as a bonus project below!)
