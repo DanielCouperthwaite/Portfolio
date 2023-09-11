@@ -10,9 +10,9 @@ export default function Me () {
                     <p className="mt-6 text-lg leading-8">
                         My name is Daniel, an English teacher turned full stack developer.
                     </p>
-                    <p className="mt-6 text-justify text-lg leading-8">
+                    {/* <p className="mt-6 text-justify text-lg leading-8">
                         The youngest students I taught were just 3 years old, and the oldest was 79! ( He was frustrated his grandchildren could communicate in English without him knowing! )
-                    </p>
+                    </p> */}
                     <p className="mt-6 text-lg leading-8">
                         I am growing my development skills every day and would love the chance to do this in a team as a junior developer. You can see some of the projects I have made below, or follow updates from my <a href={"https://www.linkedin.com/in/daniel-couperthwaite-209290139/"} target="_blank" className="font-bold">linkedIn</a> account.
                     </p>
