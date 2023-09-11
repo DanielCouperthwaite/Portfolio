@@ -65,7 +65,7 @@ export default function Projects() {
         </div>
         <div  className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <a target="_blank" href="https://number-blast.netlify.app/"><img
-            className="w-[48rem] max-w-none bg-transparent sm:w-[40rem] w-[21rem]"
+            className="lg:w-[48rem] max-w-none bg-transparent sm:w-[40rem] w-[21rem]"
             src={nb}
             alt="screenshots from a mobile device of the Number Blast Home, Game and Leaderboard pages"
           />
@@ -133,7 +133,7 @@ export default function Projects() {
         </div>
         <div  className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            className="w-[48rem] max-w-none bg-transparent sm:w-[40rem] w-[21rem]"
+            className="lg:w-[48rem] max-w-none bg-transparent sm:w-[40rem] w-[21rem]"
             src={phones}
             alt="screenshots from a mobile device of the Love Birds Welcome, Home, Profile and Quiz pages"
           />
@@ -211,7 +211,7 @@ export default function Projects() {
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <a target="_blank" href="https://just-news8118.netlify.app/"><img
-            className="w-[30rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem]  w-[21rem]"
+            className="lg:w-[30rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem]  w-[21rem]"
             src={just}
             alt="A screenshot of the Just News home page"
 
@@ -282,7 +282,7 @@ export default function Projects() {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <a target="_blank" href="https://nc-news-qkml.onrender.com/api/articles">
           <img
-            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem] w-[21rem]"
+            className="lg:w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem] w-[21rem]"
             src={api}
             alt="The rendered hosted page for a back end api, featuring an object list of articles"
           />
@@ -363,7 +363,7 @@ export default function Projects() {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <a target="_blank" href="https://weatherornot4114.netlify.app/">
           <img
-            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem] w-[21rem]"
+            className="lg:w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem] w-[21rem]"
             src={weather}
             alt="Home Page for WeatherOrNot, featuring a fluffy cloud next to the search bar."
           />
@@ -441,7 +441,7 @@ export default function Projects() {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <a target="_blank" href="https://functionsplayground7117.netlify.app/">
           <img
-            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem] w-[21rem]"
+            className="lg:w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem] w-[21rem]"
             src={playground}
             alt="Home Page for WeatherOrNot, featuring a fluffy cloud next to the search bar."
           />
@@ -515,7 +515,7 @@ export default function Projects() {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <a target="_blank" href="https://www.bbcgoodfood.com/recipes/naan-bread">
           <img
-            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem] w-[21rem]"
+            className="lg:w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[40rem] w-[21rem]"
             src={naan}
             alt="A lovely picture of some of the naan breads I made earlier this year!"
           />
