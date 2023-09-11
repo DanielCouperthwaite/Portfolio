@@ -4,6 +4,7 @@ import weather from "../assets/weather.png"
 import playground from "../assets/playground.png"
 import naan from "../assets/naan.png"
 import phones from "../assets/phones.png"
+import nb from "../assets/nb.png"
 import { useState } from "react"
 
 
@@ -44,6 +45,71 @@ export default function Projects() {
 
       </div>
 
+      <div className="pt-24 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-4">
+            <div className="lg:max-w-lg">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Number Blast</h1>
+              <p className="mt-6 text-xl leading-8 text-gray-700">
+                Welcome to number Blast, a reaction based number game designed to test your speed against the clock!
+              </p>
+               <div className="pt-6">
+               <a target="_blank" href="https://github.com/DanielCouperthwaite/number-blast" >
+            <button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Find the repository on<img className="pl-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEX////4+Pi3ubtvcnZNUVU+Q0cpLjLr6+x3en0sMTYkKS59gIORk5aUl5n8/Pzw8PFTV1tbX2Pc3d5DSEzn5+g3PECLjpFKTlKFh4qxs7XCxMUwNTq/wcLh4uPV1tZzd3o/Q0jOz9CmqKpjZ2qfoaSrd37mAAABPUlEQVR4AW3TBZKEMBAF0B8GCHzcnbW5/xm30qEyknklcU/DgQpuYRTHUXgLFHw6SemkmcYrlcd8kRYlnlQ1PU0Fp434Qde75Qd+1FUQKiRZjyGfTGNjKhWMmSQXYO3Ibao3MlqBnSRzADhk/ycAdcqclSSHnEUD+KLt8KalMQMqpl3izU5jKxHQGCq8Ud80fq4VfuFZaIyQO4wVPEre5g+RrIAPJrkQSL8OPjv3htQmH8guU5uwgseeP7ITMYBnpdFgvlJPcx0zoLjjzS/FDrVRvH6xsqDYlLx29huRUaFx6YuI1mhKMbddf9trEzca7rmRk/FxpiRXiJO8FDBURyb4yfO7glC8TOpacmAc4ElMEWlc2oGckjwvYVFEB5wjouE6uLBwquypQym/scKrM4njElYaJy182q15aDj/oQMZkS8JH3IAAAAASUVORK5CYII="></img></button>
+            </a>
+               </div>
+            </div>
+           
+          </div>
+          
+        </div>
+        <div  className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+            <a target="_blank" href="https://number-blast.netlify.app/"><img
+            className="w-[48rem] max-w-none bg-transparent sm:w-[40rem]"
+            src={nb}
+            alt="screenshots from a mobile device of the Number Blast Home, Game and Leaderboard pages"
+          />
+          </a>
+        </div>
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                    
+          <div className="lg:pr-4">
+            
+            <div className="max-w-xl text-lg leading-7 text-gray-700 lg:max-w-lg">
+              
+              
+              <p>
+                Built in Javascript with React, Firebase and tsParticles, Number Blast offers a fun and frantic gaming experience to challenge you and your freinds! How fast are you under pressure?
+              </p>
+              <div className="pt-6">
+              <a href="https://number-blast.netlify.app/" target="_blank" className="py-8">
+                <button className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Try it for yourself!</button>
+                </a>
+              </div>
+              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                <li className="flex gap-x-3">
+                  
+                  <span>
+                    <strong className="font-semibold text-gray-900">States of Play. </strong>Built in React with heavy use of state, effect and callback hooks to handle evolving game, level, timer and styling changes.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span>
+                    <strong className="font-semibold text-gray-900">Global Leaderboard. </strong>What's wrong with a friendly competition? Maybe a lot when I can't even crack the top five of my own game any more! Do you have what it takes to reach the top spot?
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span>
+                    <strong className="font-semibold text-gray-900">Interactive Styling. </strong> Those background numbers are not just for show. Using tsParticles, they are fully interactive and even add to the frantic pace of higher game levels. Have you goit what it takes to remain calm?
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
         <div className="pt-24 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
@@ -76,7 +142,7 @@ export default function Projects() {
                     
           <div className="lg:pr-4">
             
-            <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+            <div className="max-w-xl text-lg leading-7 text-gray-700 lg:max-w-lg">
               
               
               <p>
