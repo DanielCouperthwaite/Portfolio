@@ -100,7 +100,7 @@ export default function Projects() {
                 </li>
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">Interactive Styling. </strong> Those background numbers are not just for show. Using tsParticles, they are fully interactive and even add to the frantic pace of higher game levels. Have you goit what it takes to remain calm?
+                    <strong className="font-semibold text-gray-900">Interactive Styling. </strong> Those background numbers are not just for show. Using tsParticles, they are fully interactive and even add to the frantic pace of higher game levels. Have you got what it takes to remain calm?
                   </span>
                 </li>
               </ul>
