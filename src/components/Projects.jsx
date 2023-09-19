@@ -5,6 +5,7 @@ import playground from "../assets/playground.png"
 import naan from "../assets/naan.png"
 import phones from "../assets/phones.png"
 import nb from "../assets/nb.png"
+import guitarStore from "../assets/guitar-shop.png"
 import { useState } from "react"
 
 
@@ -109,6 +110,70 @@ export default function Projects() {
         </div>
       </div>
 
+      <div className="pt-24 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-4">
+            <div className="lg:max-w-lg">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Guitar Shop</h1>
+              <p className="mt-6 text-xl leading-8 text-gray-700">
+                Welcome to The Guitar Shop, a simple website to highlight stock details available from different locations.
+              </p>
+               {/* <div className="pt-6">
+               <a target="_blank" href="https://github.com/DanielCouperthwaite/number-blast" >
+            <button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Find the repository on<img className="pl-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEX////4+Pi3ubtvcnZNUVU+Q0cpLjLr6+x3en0sMTYkKS59gIORk5aUl5n8/Pzw8PFTV1tbX2Pc3d5DSEzn5+g3PECLjpFKTlKFh4qxs7XCxMUwNTq/wcLh4uPV1tZzd3o/Q0jOz9CmqKpjZ2qfoaSrd37mAAABPUlEQVR4AW3TBZKEMBAF0B8GCHzcnbW5/xm30qEyknklcU/DgQpuYRTHUXgLFHw6SemkmcYrlcd8kRYlnlQ1PU0Fp434Qde75Qd+1FUQKiRZjyGfTGNjKhWMmSQXYO3Ibao3MlqBnSRzADhk/ycAdcqclSSHnEUD+KLt8KalMQMqpl3izU5jKxHQGCq8Ud80fq4VfuFZaIyQO4wVPEre5g+RrIAPJrkQSL8OPjv3htQmH8guU5uwgseeP7ITMYBnpdFgvlJPcx0zoLjjzS/FDrVRvH6xsqDYlLx29huRUaFx6YuI1mhKMbddf9trEzca7rmRk/FxpiRXiJO8FDBURyb4yfO7glC8TOpacmAc4ElMEWlc2oGckjwvYVFEB5wjouE6uLBwquypQym/scKrM4njElYaJy182q15aDj/oQMZkS8JH3IAAAAASUVORK5CYII="></img></button>
+            </a>
+               </div> */}
+            </div>
+           
+          </div>
+          
+        </div>
+        <div  className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+            {/* <a target="_blank" href="https://number-blast.netlify.app/"> */}
+              <img
+            className="lg:w-[48rem] max-w-none bg-transparent sm:w-[40rem] w-[21rem]"
+            src={guitarStore}
+            alt="screenshots from a mobile device of the Number Blast Home, Game and Leaderboard pages"
+          />
+          {/* </a> */}
+        </div>
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                    
+          <div className="lg:pr-4">
+            
+            <div className="max-w-xl text-lg leading-7 text-gray-700 lg:max-w-lg">
+              
+              
+              <p>
+                Built in C# with ASP .NET and Bootstrap CSS, The Guitar Shop offers a frontend source of information for guitar availability, locations and descriptions.
+              </p>
+              <div className="pt-6">
+                <a target="_blank" href="https://github.com/DanielCouperthwaite/guitar-shop.git" >
+                <button target="_blank" className="flex-1 inline-flex text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Find the repository on<img className="pl-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEX////4+Pi3ubtvcnZNUVU+Q0cpLjLr6+x3en0sMTYkKS59gIORk5aUl5n8/Pzw8PFTV1tbX2Pc3d5DSEzn5+g3PECLjpFKTlKFh4qxs7XCxMUwNTq/wcLh4uPV1tZzd3o/Q0jOz9CmqKpjZ2qfoaSrd37mAAABPUlEQVR4AW3TBZKEMBAF0B8GCHzcnbW5/xm30qEyknklcU/DgQpuYRTHUXgLFHw6SemkmcYrlcd8kRYlnlQ1PU0Fp434Qde75Qd+1FUQKiRZjyGfTGNjKhWMmSQXYO3Ibao3MlqBnSRzADhk/ycAdcqclSSHnEUD+KLt8KalMQMqpl3izU5jKxHQGCq8Ud80fq4VfuFZaIyQO4wVPEre5g+RrIAPJrkQSL8OPjv3htQmH8guU5uwgseeP7ITMYBnpdFgvlJPcx0zoLjjzS/FDrVRvH6xsqDYlLx29huRUaFx6YuI1mhKMbddf9trEzca7rmRk/FxpiRXiJO8FDBURyb4yfO7glC8TOpacmAc4ElMEWlc2oGckjwvYVFEB5wjouE6uLBwquypQym/scKrM4njElYaJy182q15aDj/oQMZkS8JH3IAAAAASUVORK5CYII="></img></button>
+            </a>
+               </div>
+              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                <li className="flex gap-x-3">
+                  
+                  <span>
+                    <strong className="font-semibold text-gray-900">Built for Scalability. </strong>Working from an internal C# list of guitars, the site loops through to display the details of each at your fingertips.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span>
+                    <strong className="font-semibold text-gray-900">Dynamic ASP Routing. </strong>Need a thousand different pages of individual guitars? No problem! Each information page and url is created dynamically as the user chooses them.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <span>
+                    <strong className="font-semibold text-gray-900">Bootstrap Styling. </strong>Clean and crisp, Bootstrap CSS allows guitars to be displayed in a simple and clear way.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
         <div className="pt-24 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
