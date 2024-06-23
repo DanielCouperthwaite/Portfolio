@@ -92,6 +92,7 @@ export default function Contact() {
               Name
             </label>
             <input
+              required
               type="text"
               id="name"
               name="name"
@@ -105,6 +106,7 @@ export default function Contact() {
               Email
             </label>
             <input
+              required
               type="email"
               id="email"
               name="email"
@@ -120,6 +122,7 @@ export default function Contact() {
               Message
             </label>
             <textarea
+              required
               id="message"
               name="message"
               value={message}
