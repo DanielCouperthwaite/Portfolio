@@ -26,7 +26,15 @@ export default function Contact() {
     })
       .then(response => response.json())
       .then(data => console.log(data))
-      .catch(error => console.log(error));
+      .then(() => {
+        setEmail("")
+        setMessage("")
+        setName("")
+      })
+      .then(() => {
+        alert("Message Sent!")
+      })
+      .catch((error) => alert(error));
 
 
   }
