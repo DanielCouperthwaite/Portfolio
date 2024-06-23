@@ -11,7 +11,7 @@ export default function Contact() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("https://formsubmit.co/ajax/your@email.com", {
+    fetch("https://formsubmit.co/ajax/danielcoup1@outlook.com", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
