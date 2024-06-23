@@ -8,31 +8,56 @@ export default function Contact() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
-
   function handleSubmit(event) {
     event.preventDefault();
-    fetch("/", {
+
+    fetch("https://formsubmit.co/ajax/your@email.com", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+        name: name,
+        message: message,
+        email: email
+
+      })
     })
-      .then(() => {
-        setEmail("")
-        setMessage("")
-        setName("")
-      })
-      .then(() => {
-        alert("Message Sent!")
-      })
-      .catch((error) => alert(error));
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.log(error));
+
+
   }
+
+  
+
+  // function encode(data) {
+  //   return Object.keys(data)
+  //     .map(
+  //       (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+  //     )
+  //     .join("&");
+  // }
+
+  // function handleSubmit(event) {
+  //   event.preventDefault();
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: encode({ "form-name": "contact", name, email, message }),
+  //   })
+  //     .then(() => {
+  //       setEmail("")
+  //       setMessage("")
+  //       setName("")
+  //     })
+  //     .then(() => {
+  //       alert("Message Sent!")
+  //     })
+  //     .catch((error) => alert(error));
+  // }
 
   return (
     <section id="contact" className="relative">
@@ -44,8 +69,6 @@ export default function Contact() {
           <Details />
         </div>
         <form
-          action="https://formsubmit.co/danielcoup1@outlook.com"
-          method="POST"
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
